@@ -1,0 +1,24 @@
+{
+    "name": "YueWen",
+    "identifier": "com.yuewe.ui.sketchplugin",
+    "version": "1.0",
+    "description": "Sketchplugin for YueWen UI Team",
+    "authorEmail": "tsumengmengxu@gmail.com",
+    "author": "Mia Xu",
+    "commands": [{
+        "script": "Book/bookCover.js",
+        "handler": "createBookCover",
+        "shortcut": "",
+        "name": "Add BookCover",
+        "identifier": "add-book-cover"
+    }],
+    "menu": {
+        "items": [{
+            "title": "Book",
+            "items": [
+                "add-book-cover"
+            ]
+        }]
+
+    }
+}
